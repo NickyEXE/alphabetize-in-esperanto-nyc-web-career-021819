@@ -49,4 +49,5 @@ end
 =end
 def alphabetize (array)
   newarray = array.sort_by {|a| "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz "}
+  newarray
 end
