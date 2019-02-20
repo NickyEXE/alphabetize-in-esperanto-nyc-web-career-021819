@@ -29,18 +29,4 @@ end
 
 =end
 
-def valuizer(string)
-  i=0
-  counter = 0
-  array = string.split(//)
-  while i<string.length
-    counter = counter + (arrayplace(array[i]))*(40**(50-i))
-    i += 1
-  end
-  counter
-end
-
-def alphabetize (array)
-  newarray = array.sort_by {|a| valuizer(a)}
-  newarray
-end
+?
