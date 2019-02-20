@@ -48,6 +48,6 @@ end
 
 =end
 def alphabetize (array)
-  newarray = array.sort_by {|a| "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz ".index[a]}
+  newarray = array.sort_by {|a| "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz ".index(a)}
   newarray
 end
