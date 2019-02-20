@@ -29,6 +29,7 @@ end
 
 =end
 
+=begin
 def valuizer(string)
   i=0
   counter = 0
